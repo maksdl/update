@@ -7,6 +7,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install -y \
     ca-certificates curl gnupg lsb-release ufw \
     wget unzip nano git jq screen net-tools htop \
+    sudo bash curl snapd \
     software-properties-common apt-transport-https
 
 echo "[2/9] Удаляем старые версии Docker и Compose (если есть)..."
